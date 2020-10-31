@@ -1,0 +1,160 @@
+.sayt{
+    width: 1000px;
+    height: 900px;
+    margin: auto;
+}
+.ust{
+    width: 1000px;
+    height: 200px;
+    
+}
+.saytlar{
+    width: 1000px;
+    height:100px;
+    
+}
+.elanyer{
+    width: 1000px;
+    height: 100px;
+    background-color: red;
+}
+.orta{
+    width: 1000px;
+    height: 700px;
+    
+}
+.axtaris{
+    width: 1000px;
+    height:200px ;
+    
+}
+.markalar{
+    width: 1000px;
+    height: 350px;
+    
+}
+.elanlar{
+    width: 1000px;
+    height:150px ;
+    
+}
+
+.turbo{
+    list-style: none;
+    float: left;
+    display: block;
+    background-color: red;
+    color: #fff;
+    text-decoration: none;
+    font: 50px bold Tahoma;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+}
+.tap{
+    list-style: none;
+    float: left;
+    display: block;
+        background-color: dimgray;
+        color: #fff;
+        text-decoration: none;
+        font: 50px bold Tahoma;
+        width: 300px;
+        height: 100px;
+        text-align: center;
+}
+.bina{
+    list-style: none;
+    float: left;
+    display: block;
+        background-color: dimgray;
+        color: #fff;
+        text-decoration: none;
+        font: 50px bold Tahoma;
+        width: 300px;
+        height: 100px;
+        text-align: center;
+}
+.saytlar ul{
+    list-style: none;
+}
+.saytlar ul li{
+    float: left;
+}
+.icon{
+    width: 150px;
+    height: 100px;
+    border-radius: 50px;
+    float: left;
+}
+.elanyeles{
+    width: 500px;
+    height: 100px;
+    background-color: lime;
+    float: right;
+    margin-right: 300px;
+}
+.elanyazisi{
+    color: #fff;
+    text-decoration: none;
+    font: 50px bold Tahoma;
+    
+    text-align: center;
+}
+.butunmarkalar{
+    width: 1000px;
+    height: 100px;
+    
+}
+.bmust{
+    width: 1000px;
+    height: 50px;
+}
+.bmsol{
+    width: 300px;
+    height: 50px;
+    float: left;
+}
+.bmsag{
+    width: 350px;
+    height: 50px;
+    float: left;
+    background-color: blue;
+}
+.barter{
+    width: 1000px;
+    height: 100px;
+    
+}
+.barter ul{
+    list-style: none;
+}
+.barter ul li{
+    float: left;
+    background-color: blue;
+}
+.barter ul li a{
+    display: block;
+    width: 200px;
+    height: 30px;
+    text-decoration: none;
+    color: white;
+}
+.markalar1{
+    width: 500px;
+    height:350px ;
+    
+    float: left;
+}
+.markalar2{
+    width: 500px;
+    height: 350px;
+    
+    float: left;
+}
+.markalar1 ul{
+    list-style: none;
+}
+.markalar2 ul{
+    list-style: none;
+}
