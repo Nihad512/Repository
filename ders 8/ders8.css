@@ -1,0 +1,380 @@
+.sayt{
+    width: 960px;
+    height: 800px;
+    margin: auto auto;
+}
+.usthis{
+    width: 960px;
+    height: 160px;
+    
+}
+.ortahis{
+    width: 960px;
+    height: 260px;
+    background-color: #f4f2ef;
+}
+.althis{
+    width: 960px;
+    height:380px ;
+    background-color: #f4f2ef;
+}
+.ustyazi{
+    width: 960px;
+    height: 35px;
+  background-color: #424242;
+}
+.ustyazib{
+    width: 350px;
+    height: 35px;
+    float: left;
+}
+.destek{
+    color: #c2bdb7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-top: 10px;
+    float: left;
+    margin: 0;
+}
+.desteks{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    
+    
+    text-decoration: none;
+    float: left;
+}
+.desteksp{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-right: 35px;
+    text-decoration: none;
+    float: left;
+    margin: 0;
+}
+.ustyazisol{
+    width: 324px;
+    height: 35px;
+    float: left;
+    padding-right: 15px;
+}
+.ustyazisag{
+    width: 266px;
+    height: 35px;
+    float: left;
+}
+.ustor{
+    width: 960px;
+    height: 48px;
+    background-color: #926446;
+}
+.ustorsol{
+    width: 800px;
+    height: 48px;
+    
+    float: left;
+}
+.bina{
+    width: 136px;
+    height: 43px;
+    float: left;
+    color: #f1eeea;
+    display: block;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 5px;
+}
+.al{
+    width: 89px;
+    height: 38px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    text-decoration: none;
+    color: #f1eeea;
+    font-size:14px ;
+    text-align: center;
+    padding-top: 10px;
+}
+.rent{
+    width: 69px;
+    height: 38px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    text-decoration: none;
+    color: #f1eeea;
+    font-size:14px ;
+    text-align: center;
+    padding-top: 10px;
+}
+.agencies{
+    width: 95px;
+    height: 38px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    text-decoration: none;
+    color: #f1eeea;
+    font-size:14px ;
+    text-align: center;
+    padding-top: 10px;
+
+
+
+}
+.livecomp{
+    width: 160px;
+    height: 38px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    text-decoration: none;
+    color: #f1eeea;
+    font-size:14px ;
+    text-align: center;
+    padding-top: 10px;
+}
+.buisnesses{
+    width: 140px;
+    height: 38px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    text-decoration: none;
+    color: #f1eeea;
+    font-size:14px ;
+    text-align: center;
+    padding-top: 10px;
+}
+.ely{
+    width: 160px;
+    height: 38px;
+    background-color: #7ed321;
+    color: #fff;
+    float: left;
+    text-decoration: none;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 10px;
+}
+.ustalt{
+    width: 960px;
+    height: 77px;
+    background-color: #ad7a5a;
+}
+.alis{
+    width: 110px;
+    height: 48px;
+    border-right: 1px  #926446;
+    border-radius: 3px 0 0 3px;
+    float: left;
+    margin-left: 15px;
+}
+.menzil{
+    width: 110px;
+    height: 48px;
+    border-right: 3px #926446;
+    
+    float: left;
+}
+.alan{
+    width: 960px;
+    height: 48px;
+    padding-top: 12px;
+    float: left;
+}
+.qiymet{
+    width: 173px;
+    height: 48px;
+    border-right: 1px #926446;
+    float: left;
+}
+.seher{
+    width: 137px;
+    height: 48px;
+    float: left;
+    border-right: 1px #926446;
+}
+.etax{
+    width: 152px;
+    height: 48px;
+    float: left;
+    border-right: 1px #926446;
+    color: #3d5af3;
+}
+.axtar{
+    width: 105px;
+    height: 38px;
+    background-color: #3d5af3;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    float: left;
+    text-decoration: none;
+}
+.ortaorhis{
+  width: 920px;
+  height: 210px;
+  margin: auto;
+  padding-top: 30px;
+}
+.ortaorsol{
+    width: 700px;
+    height: 210px;
+    float: left;
+    background-color: #fff;
+    margin-right: 10px;
+}
+.ortaorsag{
+    width: 210px;
+    height: 210px;
+    float: left;
+    background-color: #fff;
+}
+.ortaorsolust{
+    width: 700px;
+    height: 50px;
+    float: left;
+    border-bottom: 1px solid #f4f2ef;
+}
+.al1{
+    width: 50px;
+    height: 38px;
+    float: left;
+    display: block;
+    text-decoration: none;
+    color: #3d5af3;
+    border-bottom: 2px solid #3d5af3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 12px;
+}
+.al2{
+    width: 50px;
+    height: 38px;
+    float: left;
+    display: block;
+    text-decoration: none;
+    color: #3d5af3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 12px;
+}
+.al3{
+    width: 180px;
+    height: 38px;
+    float: right;
+    display: block;
+    text-decoration: none;
+    color: #3d5af3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 12px;
+}
+.ortaorsolalt{
+    width: 700px;
+    height: 160px;
+    float: left;
+
+}
+.ortaorsolalt1{
+    width: 174px;
+    height: 160px;
+    float: left;
+    border-right: 1px solid #f4f2ef;
+}
+.yt1{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+     margin-left: 14px;
+    margin-top: 10px;
+}
+.yt2{
+    text-decoration: none;
+    color: #3d5af3;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 14px;
+    margin-top: 10px;
+}
+.yt3{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.ortaorsagust{
+width: 210px;
+height: 60px;
+float: left;
+border-bottom: 10px solid #f4f2ef;
+}
+.ortaorsagalt{
+    width: 210px;
+    height: 70px;
+    float: left;
+}
+.logolar1{
+    width:15px ;
+    height: 30px;
+    float: left;
+    padding: 15px;
+}
+.logolar2{
+    width: 15px;
+    height: 40px;
+    float: left;
+    padding: 15px;
+    
+}
+.gunluk{
+    width: 160px;
+    height: 55px;
+    float: right;
+    text-decoration: none;
+    display: block;
+    color: #000;
+ align-items: center;
+ padding-top: 15px;
+}
+.tikinti{
+width: 160px;
+height: 55px;
+float: right;
+text-decoration: none;
+color: #000;
+padding-top: 15px;
+}
+.vip{
+    width: 960px;
+    height: 58px;
+    float: left;
+}
+.vip1{
+    margin-bottom: 0;
+}
+.altalthis{
+    width: 960px;
+    height: 322px;
+    float: left;
+}
+.altalthis1{
+    width: 240px;
+    height: 322px;
+    float: left;
+    
+}
