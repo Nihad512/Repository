@@ -1,0 +1,268 @@
+.sayt{
+    width: 1200px;
+    height: 666px;
+    float: left;
+    
+}
+.ads{
+    width: 74px;
+    height: 666px;
+    float: left;
+    background-color: coral;
+}
+.ust{
+    width: 1200px;
+    height: 55px;
+    background-color:#fff;
+    border-top: 1px solid #f2f3f5;
+}
+
+.log{
+    width: 350px;
+    height: 55px;
+    float: left;
+}
+.log1{
+    width: 450px;
+    height: 55px;
+    float: left;
+}
+.log2{
+    width: 400px;
+    height: 55px;
+    float: left;
+}
+.orta{
+    width: 1200px;
+    height: 611px;
+    background-color: #f2f3f5;
+}
+body{
+    margin: 0;
+}
+.faceb{
+    width: 50px;
+    height: 55px;
+    float: left;
+    
+}
+#f{
+    font-size: 45px;
+    color: blue;
+    width: 47px;
+    height: 50px;
+    align-items: center;
+    padding-left: 3px;
+    padding-top: 5px;
+}
+.search{
+    width: 150px;
+    height: 35px;
+    margin-left: 15px;
+    border-radius: 10px;
+    background-color: #f2f3f5;
+    margin-top: 5px;
+    float: left;
+}
+.navbar{
+    list-style-type: none;
+}
+.navbar1{
+    float: left;
+    width: 60px;
+    height: 45px;
+    color: #000;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 30px;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    align-items: center;
+  
+}
+.navbar2{
+    float: left;
+    width: 60px;
+    height: 43px;
+   color: #3557e5;
+   border-bottom: 2px solid blue;
+   font-size: 25px;
+   padding-top: 10px;
+   padding-left: 30px;
+   cursor: pointer;
+   display: flex;
+   text-align: center;
+   align-items: center;
+}
+.log1 :hover{
+    background-color: #3222;
+}
+.sag{
+    width: 30px;
+    height: 30px;
+    background-color: #f2f3f5;
+    float: right;
+    margin-top: 13px;
+    margin-right: 10px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.log2 :hover{
+    background-color: #0322;
+}
+.sol{
+    width: 45px;
+    height: 25px;
+    background-color: #f2f3f5;
+    float: right;
+    margin-top: 16px;
+    margin-right: 10px;
+    border-radius: 100px;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    display: flex;
+    
+}
+#drop{
+    margin-left: 9px;
+    margin-top: 6px;
+}
+.nickname{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-left: 3px;
+}
+.ortasol{
+    width: 300px;
+    height: 611px;
+    float: left;
+}
+.ortaorta{
+    width: 600px;
+    height: 611px;
+    float: left;
+}
+.ortasag{
+    width: 300px;
+    height: 611px;
+    float: left;
+}
+.ortasolust{
+    width: 300px;
+    height: 450px;
+    float: left;
+    
+}
+.kt{
+    width: 300px;
+    height:161px ;
+    
+    float: left;
+}
+.pages{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.pages1{
+    color: #000;
+}
+.pages2{
+    color: #000;
+    text-decoration: none;
+    display: block;
+    width: 250px;
+    height: 30px ;
+    padding-top: 15px;
+    padding-right: 25px;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#logos1{
+    color: blue;
+    font-size: 20px;
+}
+#logos2{
+    color: blue;
+    font-size: 15px;
+}
+.ky{
+    color: dimgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    float: left;
+    margin-left: 10px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.ortaust{
+    width: 100%;
+    height:50%;
+    float: left;
+}
+.ortasagust{
+width: 300px;
+height: 250px;
+}
+.ortasagalt{
+width: 300px;
+height: 361px;
+}
+.hr1{
+    margin: 0;
+}
+.sponsor1{
+    width:300px ;
+    height: 109px;
+    float: left;
+}
+.insan{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.insan1{
+    display: block;
+    margin: 0;
+    width:290px ;
+    height: 35px ;
+    float: left;
+    padding-top: 15px;
+    padding-left: 10px;
+    color: dimgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.insan :hover{
+    background-color: white;
+}
+.insan2{
+    display: block;
+    margin: 0;
+    width:290px ;
+    height: 35px ;
+    float: left;
+    padding-top: 15px;
+    padding-left: 10px;
+    color: dimgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px solid dimgray;
+}
+#insan3{
+    margin-right: 10px;
+}
