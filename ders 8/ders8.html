@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="derss8.js"></script>
 </head>
 <body>
     <div class="sayt">
@@ -33,7 +34,7 @@
                 <a href="" class="buisnesses">Biznes mərkəzləri</a>
             </div>
             
-                <a href="" class="ely">Elan yerləşdir</a>
+                <a href="" class="ely"><i class="fas fa-plus" id="plus"></i>Elan yerləşdir</a>
             </div>
             <div class="ustalt">
                 <div class="alan">
@@ -51,7 +52,7 @@
                     <option>Ofis</option>
                     <option>Obyekt</option>
                 </select>
-                <select class="menzil">
+                <select class="menzil" onclick="not()">
                <option>Otaq sayı</option>
                <option>1</option>
                <option>2</option>
@@ -59,7 +60,7 @@
                <option>4</option>
                <option>5</option>
                 </select>
-                <input class="qiymet" type="search" placeholder="Qiymət AZN">
+                <input class="qiymet" type="search" placeholder="Qiymət AZN" onclick="notmyfunction()">
                 <select class="seher">
                     <option>Bakı</option>
                     <option>Ağdaş</option>
@@ -72,13 +73,82 @@
                     <option>Saatlı</option>
                     <option>Gəncə</option>
                 </select>
-                <select class="etax">
-                    <option>Ətraflı axtarış</option>
-                    <option>Mərtəbə</option>
-                    <option>Yer</option>
-                    <option>Elanın nömrəsi</option>
-                </select>
-                <a href="" class="axtar">Axtar</a>
+                <a  class="etax" onclick="show()">
+                    <i class="fas fa-caret-down" id="caret"></i>
+                    
+                </a>
+                <a href="" class="axtar" >Axtar</a>
+                <div class="qiymethov" id="drop" >
+                    <input class="min" placeholder="min." >
+                    <input class="maks" placeholder="maks.">
+                </div>
+                <div class="dropdown" id="search">
+                    <div class="dropdown1">
+                       <div class="sah1">
+                            <p class="sah">SAHƏ, M²</p>
+                            <p class="sah2">36096 elan yerləşdirilib</p>
+                    </div>
+                        <div class="sahe1">
+                            <input class="kic" placeholder="  min.">
+                            <input class="kic" placeholder="  maks.">
+                        </div>
+                    </div>
+                    <div class="dropdown1">
+                        <div class="sah1">
+                            <p class="sah">MƏRTƏBƏ</p>
+                        </div>
+                        <div class="sahe1">
+                            <input class="kic" placeholder="  min.">
+                            <input class="kic" placeholder="  maks.">
+                            
+                        </div>
+                        <div class="olmasin">
+                            <input type="radio" id="yazi1"></input>
+                            <p id="yazi3">1-ci olmasın</p>
+                        </div>
+                            <div class="olmasin">
+                                <input type="radio" id="yazi1"></input>
+                            <p id="yazi">Ən üst olmasın</p>
+                            </div>
+                            <div class="olmasin">
+                                <input type="radio" id="yazi1"></input>
+                            <p id="yazi">Yalnız ən üst</p>
+                            </div>
+
+                    </div>
+                    <div class="dropdown1">
+                        <div class="sah1">
+                            <p class="sah">YERLƏŞMƏ</p>
+                        </div>
+                        <a href="" class="rayon">Rayon və qəsəbələr</a>
+                        <a href="" class="rayon">Metrostansiyalar</a>
+                        <a href="" class="rayon">Nişangahlar</a>
+                    </div>
+                    <div class="dropdown7">
+                        <div class="sah1">
+                            <p class="sah">Elanın nömrəsi</p>
+                        </div>
+                        <input class="bos">
+                        <div class="bos1">
+                            <input type="radio" id="yazi1"></input>
+                            <p id="yazi2">Çıxarış var</p>
+
+                        </div>
+                        <div class="bos1">
+                            <input type="radio" id="yazi1"></input>
+                            <p id="yazi2">İpoteka var</p>
+                        </div>
+                    </div>
+                    <div class="dropdown1">
+                        <div class="gizlet">
+                            <a href="" class="gizlet1"onclick="hide()">Gizlət<i class="fas fa-caret-down" id="dropup" ></i></a>
+                        </div>
+                        <div class="gizlet">
+                            <a href="" class="sifirla">Sıfırla</a>
+                            <a href="" class="elangoster">19439 elan göstər</a>
+                        </div>
+                    </div>
+                </div>
             </div>
             </div>
         </div>
@@ -158,24 +228,65 @@
         </div>
         <div class="althis">
             <div class="vip">
-                <h1 class="vip1">Vip elanlar</h1>
+                <p class="vip1">VIP ELANLAR</p>
+                <div class="sagox"><i class="fas fa-caret-down" id="sagox"></i></div>
+                <div class="solox"><i class="fas fa-caret-down" id="solox"></i></div>
+                <p class="more">Daha Çox</p>
             </div>
             <div class="altalthis">
                 <div class="altalthis1">
-                    <img src="./ev-1.jpg" width="240px" height="240px">
-                    <p>yeni tikili ev. 3 otaqlı yenicə təmir olunmuşdur qaz ışıq heç bir problemi yoxdur.<br>Qiymət:57000 AZN</p>
+                   <div class="altalthis2">
+                       <div class="sekil4">
+                        <i class="far fa-heart" id="heart"></i>
+                        <div class="value">
+                            <p class="value1">300 000 AZN</p>
+                        </div>
+                       </div>
+                       <h3 class="header">Nərimanov r.</h3>
+                       <p class="header1">5 otaqlı,196m² 10/14 otaq</p>
+                       <p class="header2">Bakı,bugün:23:17</p>
+                    </div>
                 </div>
                 <div class="altalthis1">
-                    <img src="./ev-2.jpeg" height="240px" width="240px">
-                    <p>Köhnə tikili ev. evin heç bir problemi yoxdur yenicə remont olunub bakının mərkəzinə 4 saat məsafədədir ev Qusardadır<br>Qiymət:45000AZN</p>
+                    <div class="altalthis2">
+                        <div class="sekil2">
+                            <i class="far fa-heart" id="heart"></i>
+                            <div class="value">
+                                <p class="value1">65 000 AZN</p>
+                            </div>
+                        </div>
+                        <h3 class="header">Badamdar q.</h3>
+                        <p class="header1">2 otaqlı, 100m² ,7/18 otaq</p>
+                        <p class="header2">Bakı,10 noyabr 2020</p>
+                    </div>
                 </div>
                 <div class="altalthis1">
-                    <img src="./ev-3.jpg" width="240px" height="240px">
-                    <p>Yeni remont olunmuş ev.evin heç bir problemi yoxdur qaz su elektrik və s. hər şeyi yerindədir ev zəlzələyə dayanıqlıdır ev Nərimanov metrosuna cəmi 15 dəqiqə helikopter məsafəsində mərkəzə yaxındır<br>Qiymət:45000AZN</p>
+                    <div class="altalthis2">
+                        <div class="sekil3">
+                            <i class="far fa-heart" id="heart"></i>
+                            <div class="value">
+                                <p class="value1">98 000 AZN</p>
+                            </div>
+                        </div>
+                        <h3 class="header">7.ci mikrorayon</h3>
+                        <p class="header1">3 otaqlı, 125m² 11/14 otaq</p>
+                        <p class="header2">Bakı,3 noyabr 2020</p>
+                    </div>
+                    
                 </div>
                 <div class="altalthis1">
-                    <img src="./ev-4.jpg" width="240px" height="240px">
-                    <p>yeni tikilmiş villa. villa yeni sayılar 9 illikdir 7 otaqlı 2 mərtəbəlidir hovuz və.s  hər cür tətil üçün əlverişlidir günlük kirayə də götürülə bilər ev Lənkərandadır.</p>
+                    <div class="altalthis2">
+                        <div class="sekil">
+                            <i class="far fa-heart" id="heart"></i>
+                            <div class="value">
+                                <p class="value1">195 000 AZN</p>
+                            </div>
+                        </div>
+                        <h3 class="header">Həzi Aslanov m.</h3>
+                        <p class="header1">3 otaqlı, 136m² 3/14 otaq</p>
+                        <p class="header2">Bakı,dünən:21:13</p>
+                    </div>
+                    
                 </div>
             </div>
         </div>
